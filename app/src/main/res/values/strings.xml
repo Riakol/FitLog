@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FitLog</string>
+    
+    //Bottom Navigation
+    <string name="home_title">Home</string>
+    <string name="workout_title">Workout</string>
+    <string name="stats_title">Stats</string>
+    <string name="profile_title">Profile</string>
 </resources>

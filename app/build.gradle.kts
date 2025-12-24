@@ -6,6 +6,14 @@ plugins {
     alias(libs.plugins.hilt)
 }
 
+kotlin {
+    jvmToolchain(21)
+
+    compilerOptions {
+        optIn.add("kotlin.RequiresOptIn")
+    }
+}
+
 android {
     namespace = "com.riakol.fitlog"
     compileSdk {
@@ -32,13 +40,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlin {
-        compilerOptions {
-            optIn.add("kotlin.RequiresOptIn")
-        }
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     buildFeatures {
         compose = true
@@ -57,6 +60,7 @@ dependencies {
     ksp(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 
+    implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

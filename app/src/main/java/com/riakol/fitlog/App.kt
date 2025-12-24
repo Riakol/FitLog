@@ -1,4 +1,4 @@
-package com.riakol
+package com.riakol.fitlog
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FitLog</string>
+    
+    //Bottom Navigation
+    <string name="home_title">Главная</string>
+    <string name="workout_title">Тренировка</string>
+    <string name="stats_title">Статистика</string>
+    <string name="profile_title">Профиль</string>
+</resources>

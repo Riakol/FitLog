@@ -3,6 +3,14 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+kotlin {
+    jvmToolchain(21)
+
+    compilerOptions {
+        optIn.add("kotlin.RequiresOptIn")
+    }
+}
+
 android {
     namespace = "com.riakol.data"
     compileSdk {
@@ -26,13 +34,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlin {
-        compilerOptions {
-            optIn.add("kotlin.RequiresOptIn")
-        }
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 }
 

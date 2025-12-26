@@ -6,4 +6,12 @@
     <string name="workout_title">Тренировка</string>
     <string name="stats_title">Статистика</string>
     <string name="profile_title">Профиль</string>
+
+    //Muscle Group Category
+    <string name="chest">Грудь</string>
+    <string name="biceps">Бицепс</string>
+    <string name="triceps">Трицепс</string>
+    <string name="back">Спина</string>
+    <string name="legs">Ноги</string>
+    <string name="abs">Пресс</string>
 </resources>

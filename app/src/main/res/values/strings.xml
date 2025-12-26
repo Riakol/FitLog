@@ -6,4 +6,13 @@
     <string name="workout_title">Workout</string>
     <string name="stats_title">Stats</string>
     <string name="profile_title">Profile</string>
+
+    //Muscle Group Category
+    <string name="chest">Chest</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="back">Back</string>
+    <string name="legs">Legs</string>
+    <string name="abs">Abs</string>
+
 </resources>

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Подтягивания",
+    "category": "BACK"
+  },
+  {
+    "name": "Отжимания",
+    "category": "CHEST"
+  },
+  {
+    "name": "Приседания",
+    "category": "LEGS"
+  },
+  {
+    "name": "Пресс",
+    "category": "ABS"
+  }
+]
